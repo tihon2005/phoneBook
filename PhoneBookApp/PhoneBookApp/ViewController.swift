@@ -15,7 +15,16 @@ class ViewController: UITabBarController {
         let images = ["phone","book","star"]
         for x in 0...2{
             items[x].image = UIImage(systemName: images[x])
-            items[x].title = ""
+            switch x{
+            case 0:
+                items[x].title = "Recent calls"
+            case 1:
+                items[x].title = "Contacts"
+            case 2:
+                items[x].title = "Favorite contacts"
+            default:
+                items[x].title = "Unknown"
+            }
         }
     }
 

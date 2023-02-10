@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E69F0882996542D00D55757 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F0872996542D00D55757 /* SecondViewController.swift */; };
+		5E69F08A2996599B00D55757 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F0892996599B00D55757 /* ThirdViewController.swift */; };
 		5EF731AA29952916001ACA6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF731A929952916001ACA6F /* AppDelegate.swift */; };
 		5EF731AC29952916001ACA6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF731AB29952916001ACA6F /* SceneDelegate.swift */; };
 		5EF731AE29952916001ACA6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF731AD29952916001ACA6F /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E69F0872996542D00D55757 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5E69F0892996599B00D55757 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		5EF731A629952916001ACA6F /* PhoneBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF731A929952916001ACA6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EF731AB29952916001ACA6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 		5EF731A829952916001ACA6F /* PhoneBookApp */ = {
 			isa = PBXGroup;
 			children = (
+				5E69F0892996599B00D55757 /* ThirdViewController.swift */,
 				5EFB1E3A2995336C005D11BA /* FirstViewController.swift */,
+				5E69F0872996542D00D55757 /* SecondViewController.swift */,
 				5EF731A929952916001ACA6F /* AppDelegate.swift */,
 				5EF731AB29952916001ACA6F /* SceneDelegate.swift */,
 				5EF731AD29952916001ACA6F /* ViewController.swift */,
@@ -144,6 +150,8 @@
 				5EF731AE29952916001ACA6F /* ViewController.swift in Sources */,
 				5EF731AA29952916001ACA6F /* AppDelegate.swift in Sources */,
 				5EF731AC29952916001ACA6F /* SceneDelegate.swift in Sources */,
+				5E69F0882996542D00D55757 /* SecondViewController.swift in Sources */,
+				5E69F08A2996599B00D55757 /* ThirdViewController.swift in Sources */,
 				5EFB1E3B2995336C005D11BA /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
