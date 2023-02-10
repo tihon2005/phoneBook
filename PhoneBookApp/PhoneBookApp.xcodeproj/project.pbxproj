@@ -13,6 +13,7 @@
 		5EF731B129952916001ACA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF731AF29952916001ACA6F /* Main.storyboard */; };
 		5EF731B329952917001ACA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF731B229952917001ACA6F /* Assets.xcassets */; };
 		5EF731B629952917001ACA6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF731B429952917001ACA6F /* LaunchScreen.storyboard */; };
+		5EFB1E3B2995336C005D11BA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB1E3A2995336C005D11BA /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5EF731B229952917001ACA6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EF731B529952917001ACA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EF731B729952917001ACA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFB1E3A2995336C005D11BA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		5EF731A829952916001ACA6F /* PhoneBookApp */ = {
 			isa = PBXGroup;
 			children = (
+				5EFB1E3A2995336C005D11BA /* FirstViewController.swift */,
 				5EF731A929952916001ACA6F /* AppDelegate.swift */,
 				5EF731AB29952916001ACA6F /* SceneDelegate.swift */,
 				5EF731AD29952916001ACA6F /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				5EF731AE29952916001ACA6F /* ViewController.swift in Sources */,
 				5EF731AA29952916001ACA6F /* AppDelegate.swift in Sources */,
 				5EF731AC29952916001ACA6F /* SceneDelegate.swift in Sources */,
+				5EFB1E3B2995336C005D11BA /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
